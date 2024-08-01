@@ -1,0 +1,56 @@
+/* Estilos para o header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e3cef7;
+  padding: 30px 60px;
+  border-bottom: 3px solid #693481;
+  max-width: 1200px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+/* Estilos para a logo */
+.logo {
+  text-decoration: underline;
+  font-size: 24px;
+  font-weight: 700;
+  margin-left: 5px;
+  padding: 10px;
+  border: 3px solid #542a68;
+  border-radius: 50%;
+  background-color: #e3cef7;
+  text-align: center;
+  display: inline-block;
+}
+
+.logo-color {
+  color: #542a68; /* Cor do texto da logo igual à borda */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #693481; /* Cor dos links */
+  font-weight: bold;
+  transition: color 0.4s ease;
+  padding: 10px 0;
+}
+
+.nav-list a:hover {
+  color: #9e50c2; /* Cor dos links ao passar o mouse */
+}

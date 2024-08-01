@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f1e1ff;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; /* Uso do peso 700 para títulos */
+}
+
+p, li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400; /* Uso do peso normal para textos */
+}
+
