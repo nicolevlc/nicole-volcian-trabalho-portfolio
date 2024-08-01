@@ -1,0 +1,79 @@
+/* Estilos para a seção Contato */
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5edfc;
+  padding: 80px 20px;
+  margin-top: 80px;
+  height: auto;
+}
+
+.contact {
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact h2 {
+  font-size: 40px;
+  color: #693481;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #542a68;
+}
+
+/* Estilos para o formulário */
+form {
+  max-width: 800px; /* Limita a largura do formulário */
+  width: 100%; /* Ajusta a largura do formulário para preencher o container */
+  margin: 0 auto; /* Centraliza o formulário */
+  background-color: #ffffff;
+  padding: 20px; /* Espaçamento interno do formulário */
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espaço entre os grupos de formulários */
+}
+
+.form-group label {
+  display: block; /* Faz o label ocupar toda a largura disponível */
+  font-size: 18px; /* Tamanho do texto do label */
+  color: #542a68; /* Cor do texto do label */
+  margin-bottom: 8px; /* Espaço abaixo do label */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Faz os campos ocupar toda a largura disponível */
+  padding: 10px; /* Espaçamento interno dos campos */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: vertical; /* Permite redimensionar somente verticalmente */
+}
+
+button {
+  background-color: #693481;
+  color: #ffffff;
+  border: none; 
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer; /* Cursor de mão ao passar o mouse sobre o botão */
+  transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+button:hover {
+  background-color: #9e50c2; /* Muda a cor de fundo do botão ao passar o mouse */
+}

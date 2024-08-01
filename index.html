@@ -7,30 +7,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio da Nicole Volcian Ascenção</title>
   <link rel="stylesheet" href="styles/index.css">
-
+  <link rel="stylesheet" href="styles/about.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
   <header>
     <div class="logo-color">
-        <h1 class="logo">NV</h1>
+      <h1 class="logo">NV</h1>
     </div>
     <nav>
       <div class="nav-container">
         <ul class="nav-list">
           <li><a href="#about">Sobre mim</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
           <li><a href="#experience">Formação Acadêmica</a></li>
-          <li><a href="#contato">Contato</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
+  <section id="about">
+    <div class="about">
+      <h2>Quem sou eu?</h2>
+      <p>Olá! Me chamo Nicole, sou uma estudante de Análise e Desenvolvimento de Sistemas com uma paixão por tecnologia e inovação. Atualmente, estou no segundo semestre da faculdade, onde tenho me aprofundado em fundamentos de desenvolvimento de software, design, lógica de programação e muito mais. Com uma sólida base em HTML, CSS e JavaScript, além de um conhecimento crescente em Python, estou sempre buscando aprender e me atualizar nas últimas tendências do mercado! 🤖💜</p>
+    </div>
+  </section>
 
+  <section id="experience">
+    <div class="experience">
+      <h2>Formação Acadêmica</h2>
+      <p>Além dos meus estudos dentro da faculdade, adoro participar de eventos e fazer cursos por fora que me façam trabalhar em projetos práticos aplicando e expandindo minhas habilidades. Estou sempre em busca de novas oportunidades para mergulhar de cabeça e aprimorar meus conhecimentos, minha criatividade e dedicação. Segue abaixo alguns dos cursos e eventos que participei! ✨🚀 </p>
+    </div>
+    <div class="courses">
+      <img src="assets/nlw-journey.png" alt="evento NLW Journey da plataforma Rocketseat">
+      <img src="assets/nlw-unite.png" alt="evento NLW Unite da plataforma Rocketseat">
+      <img src="assets/santander-bootcamp-2024.png" alt="Bootcamp Santander 2024 da plataforma DIO">
+      <img src="assets/nexa-bootcamp-ia.png" alt="Bootcamp Nexa da plataforma DIO ">
+    </div>
+  </section>
 
+  <section id="hobbies">
+    <div class="hobbies">
+      <h2>Meus interesses</h2>
+      <p>Fora do mundo da programação, eu tenho uma grande paixão por jogos online, especialmente League of Legends e Valorant. Estes jogos não apenas me proporcionam entretenimento, mas também desafiam minha estratégia e habilidades de trabalho em equipe. Através deles, aprendi a importância da comunicação eficaz em ambientes colaborativos. 🎮🩷</p>
+    </div>
+    <div class="ahri">
+      <img src="assets/ahri-emote-1.png" alt="emote da personagem Ahri do League of Legends">
+      <img src="assets/ahri-emote-2.png" alt="emote da personagem Ahri do League of Legends">
+      <img src="assets/ahri-emote-3.png" alt="emote da personagem Ahri do League of Legends">
+      <img src="assets/ahri-emote-4.png" alt="emote da personagem Ahri do League of Legends">
+    </div>
+  </section>
 
+  <section id="contact">
+    <div class="contact">
+      <h2>Contato</h2>
+      <p>Entre em contato comigo preenchendo o formulário abaixo:</p>
+    </div>
+  <form action="#" method="get">
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="mensagem">Deixe sua mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
 
+  <footer>
+    <p>&copy; 2024 Portfólio da Nicole Volcian Ascenção</p>
+    <div class="footer-icons">
+      <a href="https://github.com/nicolevlc" target="_blank" class="icon-link">
+        <img src="assets/github-icon.svg" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/nicolevlc/" target="_blank" class="icon-link">
+        <img src="assets/linkedin-icon.svg" alt="LinkedIn">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>

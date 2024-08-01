@@ -1,0 +1,28 @@
+footer {
+  background-color: #e3cef7;
+  color: #542a68;
+  padding: 20px 60px; /* Espaçamento interno */
+  box-sizing: border-box; 
+  display: flex; /* Utiliza flexbox para alinhar itens */
+  justify-content: space-between; /* Espaça o texto e os ícones */
+  align-items: center; 
+  width: 100%; 
+}
+
+.footer-icons {
+  display: flex; /* Alinha os ícones horizontalmente */
+}
+
+.icon-link {
+  margin: 0 10px; /* Espaçamento horizontal entre ícones */
+}
+
+.icon-link img {
+  width: 30px; 
+  height: auto; /* Mantém a proporção das imagens */
+  transition: opacity 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.icon-link img:hover {
+  opacity: 0.8; 
+}

@@ -1,0 +1,26 @@
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 180px); /* Ajusta a altura para considerar o header */
+  background-color: #f5edfc;
+  padding: 0 20px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about {
+  max-width: 800px; /* Limita a largura do texto */
+}
+
+#about h2 {
+  font-size: 40px;
+  color: #693481;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #542a68;
+}

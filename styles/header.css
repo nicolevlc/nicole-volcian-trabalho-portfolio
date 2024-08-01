@@ -1,21 +1,15 @@
-/* Estilos para o header */
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #e3cef7;
-  padding: 30px 60px;
-  border-bottom: 3px solid #693481;
-  max-width: 1200px;
-  margin: 20px auto;
-  border-radius: 15px;
-  box-sizing: border-box;
+  padding: 20px 90px;
 }
 
-/* Estilos para a logo */
+/* Estilizando a logo */
 .logo {
   text-decoration: underline;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   margin-left: 5px;
   padding: 10px;
@@ -23,20 +17,13 @@ header {
   border-radius: 50%;
   background-color: #e3cef7;
   text-align: center;
-  display: inline-block;
 }
 
-.logo-color {
-  color: #542a68; /* Cor do texto da logo igual à borda */
-}
-
+/* Estilizando a lista de navegação */
 .nav-list {
   display: flex;
   justify-content: center;
   list-style: none;
-  padding: 0;
-  margin: 0;
-  width: auto;
 }
 
 .nav-list li {
@@ -45,12 +32,12 @@ header {
 
 .nav-list a {
   text-decoration: none;
-  color: #693481; /* Cor dos links */
+  color: #693481;
   font-weight: bold;
   transition: color 0.4s ease;
   padding: 10px 0;
 }
 
 .nav-list a:hover {
-  color: #9e50c2; /* Cor dos links ao passar o mouse */
+  color: #9e50c2;
 }
