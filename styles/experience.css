@@ -6,7 +6,7 @@
   padding: 80px 20px;
 }
 
-.experience {
+.div-experience {
   max-width: 800px;
   text-align: center;
 }
@@ -23,6 +23,7 @@
   color: #542a68;
 }
 
+/*Organizando as imagens*/
 .courses {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Cria duas colunas */

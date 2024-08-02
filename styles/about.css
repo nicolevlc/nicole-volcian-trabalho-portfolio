@@ -2,14 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: calc(100vh - 180px); /* Ajusta a altura para considerar o header */
+  height: calc(100vh - 180px); /* Calcula e ajusta a altura para considerar o header */
   background-color: #f5edfc;
   padding: 0 20px;
   flex-direction: column;
   text-align: center;
 }
 
-.about {
+.div-about {
   max-width: 800px; /* Limita a largura do texto */
 }
 

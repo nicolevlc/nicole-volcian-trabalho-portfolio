@@ -10,7 +10,7 @@
   margin-top: 80px;
 }
 
-.portfolio {
+.div-portfolio {
   max-width: 800px;
 }
 
@@ -27,6 +27,7 @@
   padding-bottom: 40px;
 }
 
+/*Organizando os projetos*/
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Cria duas colunas */
