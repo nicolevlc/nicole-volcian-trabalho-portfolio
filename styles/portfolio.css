@@ -1,0 +1,48 @@
+#portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Cobre 100% da altura da tela */
+  background-color: #f5edfc;
+  padding: 0 20px;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.portfolio {
+  max-width: 800px;
+}
+
+#portfolio h2 {
+  font-size: 40px;
+  color: #693481;
+  margin-bottom: 20px;
+}
+
+#portfolio p {
+  font-size: 22px;
+  line-height: 1.6;
+  color: #542a68;
+  padding-bottom: 40px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Cria duas colunas */
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Transição suave para o hover */
+}
+
+.projects img:hover {
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada no hover */
+}
