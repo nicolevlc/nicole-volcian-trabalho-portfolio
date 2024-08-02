@@ -1,4 +1,4 @@
-/* Estilos para a seção Contato */
+/* Estilizando a seção Contato */
 #contact {
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   color: #542a68;
 }
 
-/* Estilos para o formulário */
+/* Estilizando o formulário */
 form {
   max-width: 800px; /* Limita a largura do formulário */
   width: 100%; /* Ajusta a largura do formulário para preencher o container */
